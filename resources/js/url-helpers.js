@@ -1,4 +1,4 @@
-// Shared URL helper functions
+////Shared URL helper functions
 
 export function copyToClipboard(inputId = 'shortUrl') {
     const input = document.getElementById(inputId);
@@ -31,6 +31,6 @@ export function copyUrl(url) {
     });
 }
 
-// Make functions globally available
+////Make functions globally available
 window.copyToClipboard = copyToClipboard;
 window.copyUrl = copyUrl;
